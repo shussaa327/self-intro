@@ -6,18 +6,18 @@
     <title>自己紹介</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <header>
-        <div>
+        <div class="header__column">
           <h1>自己紹介</h1>
-          <h2>名前</h2>
-          <p>山田　太郎</p>
-          <table>
-            <tr>
+          <h2 class="heading">名前</h2>
+          <p class="my-name">山田　太郎</p>
+          <table class="table">
+            <tr class="table__row">
               <th>言語</th>
               <th>姓（名字）</th>
               <th>名（名前）</th>
-            </tr>
+            </tr class="table__row">
             <tr>
               <th>日本語</th>
               <td>やまだ</td>
@@ -30,13 +30,31 @@
             </tr>
           </table>
         </div>
-        <img src="img/kazukiphotomon07_TP_V.jpg" alt="プロフィール画像">
+        <img class="header__thumb" src="img/kazukiphotomon07_TP_V.jpg" alt="プロフィール画像">
       </header>
       <main>
-        
+        <h2 class="heading">基本情報</h2>
+        <ul class="main__list">
+          <li>
+            <p class="item-name">生年月日</P>
+            <p class="profile-data">1693、7、1</P>
+          </li>
+          <li>
+            <p class="item-name">出身地</P>
+            <p class="profile-data">ニューヨーク</P>
+          </li>
+          <li>
+            <p class="item-name">趣味・特技</P>
+            <p class="profile-data">後方４回転宙返り</P>
+          </li>
+          <li>
+            <p class="item-name">メッセージ</P>
+            <p class="profile-data"><span>よろしくお願いします。</span></P>
+          </li>
+        </ul>
       </main>
       <footer>
-        
+        <div>Copyright &copy; <a href="https://eras.jp/" target="_blank">2020 ERAS Inc.</a></div>
       </footer>
     </div>
   </body>
